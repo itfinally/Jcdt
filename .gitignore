@@ -1,0 +1,9 @@
+.git
+.idea
+.DS_store
+
+*.map
+src/**/*.js
+
+test
+node_modules

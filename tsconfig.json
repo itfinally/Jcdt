@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "watch": true,
+    "strict": true,
+    "allowJs": true,
+    "target": "es6",
+    "sourceMap": true,
+    "module": "commonjs"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

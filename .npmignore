@@ -1,0 +1,13 @@
+.git
+.idea
+.DS_store
+.gitignore
+.npmignore
+
+test
+node_modules
+tsconfig.json
+package-lock.json
+webpack.config.js
+
+stateMachine.*
