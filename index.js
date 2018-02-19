@@ -1,10 +1,10 @@
 Object.defineProperty( exports, "__esModule", { value: true } );
 
 [
-  require( "./src/core/exception" ),
-  require( "./src/core/lang" ),
-  require( "./src/util/collection" ),
-  require( "./src/util/list" ),
-  require( "./src/util/map" )
+  require( "./dist/core/exception" ),
+  require( "./dist/core/lang" ),
+  require( "./dist/util/collection" ),
+  require( "./dist/util/list" ),
+  require( "./dist/util/map" )
 
-].forEach( module => Object.keys( module ).forEach( name => exports[ name ] = modules[ name ] ) );
+].forEach( module => Object.keys( module ).forEach( name => exports[ name ] = module[ name ] ) );

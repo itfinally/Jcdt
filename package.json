@@ -1,6 +1,6 @@
 {
   "name": "jcdt",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Javascript common development toolkit",
   "scripts": {
     "test": "node ./test/testing.js"

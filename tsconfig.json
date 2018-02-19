@@ -1,13 +1,21 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
     "watch": true,
     "strict": true,
     "allowJs": true,
     "target": "es6",
     "sourceMap": true,
-    "module": "commonjs"
+    "outDir": "./dist",
+    "module": "commonjs",
+    "sourceRoot": "./src"
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "definition",
+    "./**/*.js",
+    "target",
+    "test",
+    "dist",
   ]
 }

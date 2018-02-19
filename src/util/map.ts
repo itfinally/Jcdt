@@ -1,6 +1,6 @@
 import { AbstractCollection, Collection, isCollection, ObjectIterator } from "./collection";
-import { Assert, CoreUtils, MAX_INTEGER } from "../core/lang";
 import { IllegalStateException, UnsupportedOperationException } from "../core/exception";
+import { Assert, CoreUtils, MAX_INTEGER } from "../core/lang";
 
 export interface Entry<K, V> {
   key: K;

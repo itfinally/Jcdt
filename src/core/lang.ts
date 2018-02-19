@@ -1,4 +1,4 @@
-import { IllegalStateException, NullPointException } from "./exception";
+import { IllegalArgumentException, IllegalStateException, NullPointException } from "./exception";
 
 // 0x7FFFFFFF === (2147483648 - 1), that is max unsigned integer in memory of javascript( 32 bit ).
 // The highest bit is a flag bit, so capacity cannot greater than MAX_CAPACITY(either equal) otherwise
@@ -262,6 +262,10 @@ export class CoreUtils {
     }
 
     return true;
+  }
+
+  public static sleep( millis: number ): Promise<void> {
+    return new Promise( resolve => setTimeout( () => resolve(), millis ) );
   }
 }
 

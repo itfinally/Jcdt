@@ -5,9 +5,8 @@
 .npmignore
 
 test
+target
 node_modules
 tsconfig.json
 package-lock.json
 webpack.config.js
-
-stateMachine.*

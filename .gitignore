@@ -2,8 +2,7 @@
 .idea
 .DS_store
 
-*.map
-src/**/*.js
-
 test
+dist
+target
 node_modules
